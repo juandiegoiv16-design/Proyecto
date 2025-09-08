@@ -142,6 +142,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
         return (LRESULT)hBrush;
     }
 
+    // desaparicion de ventanas, cuando no hayan mas sugerencias
     case WM_DESTROY:
         if (hFont) DeleteObject(hFont);
         if (hBrush) DeleteObject(hBrush);
