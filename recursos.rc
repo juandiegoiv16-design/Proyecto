@@ -1,0 +1,2 @@
+#define IDI_ICONO 101
+IDI_ICONO ICON "Logo-Hikari.ico"
